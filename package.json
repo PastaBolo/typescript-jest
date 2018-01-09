@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/jest": "^19.2.4",
+    "jest": "*"
+  },
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|js)"
+    ]
+  }
+}
