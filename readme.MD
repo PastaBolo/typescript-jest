@@ -1,9 +1,11 @@
 ```
-npm install -g typescript nodemon
-
 npm install
 
+npm install -g typescript
 npm link typescript
+
+// or (without installing typescript globally) 
+npm install --save typescript
 ```
 
 ---
