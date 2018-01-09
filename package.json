@@ -5,7 +5,8 @@
   },
   "scripts": {
     "test": "jest",
-    "test-watch": "jest --watchAll",
+    "test-watch": "jest --watch",
+    "test-watchAll": "jest --watchAll",
     "compile": "tsc"
   },
   "jest": {
