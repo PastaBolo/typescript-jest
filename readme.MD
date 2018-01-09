@@ -4,7 +4,7 @@ npm install
 npm install -g typescript
 npm link typescript
 
-// or (without installing typescript globally) 
+# Or (without installing typescript globally) 
 npm install --save typescript
 ```
 
